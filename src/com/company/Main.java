@@ -20,7 +20,7 @@ public static class Main2 {
 }
 
     public static void main(String[] args) {
-        Cat cat = new Cat(4, true, "orange", true, "tabby", "green");
+        Cat2 cat = new Cat2(4, true, "orange", true, "tabby", "green");
 
         System.out.println("Your cat has the following traits: ");
         System.out.println("Amount of legs: " + cat.getLegs());
